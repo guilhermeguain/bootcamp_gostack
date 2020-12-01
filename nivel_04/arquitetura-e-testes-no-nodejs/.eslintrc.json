@@ -1,7 +1,8 @@
 {
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
     "airbnb-base",
@@ -48,7 +49,7 @@
       "argsIgnorePattern": "_"
     }],
     "camelcase": "off",
-    "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "always" }],
+    // "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "always" }],
     "no-useless-constructor": "off"
   },
   "settings": {
